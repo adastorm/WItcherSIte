@@ -94,30 +94,41 @@ h1{
 /* CSS code for the middle of page 2, or the switcher */
 
 .switcher h1{
-  text-align: center;
-  
+  text-align: center; 
+}
+
+.switcher img{
+  float: right;
+}
+
+.switcher{
+  position: absolute;
+  width: 1200px;
 }
 
 #front{
-  background-color: antiquewhite;
+  background-color: rgb(0, 38, 207);
   top:100px;
   left: 100px;
   z-index: 1;
   border: 10px solid black;
+  position: absolute;
 }
 #middle{
   background-color: rgb(255, 0, 0);
-  top: 140px;
-  left: 120px;
-  z-index: 1;
-  border: 10px solid black;
-}
-#back{
-  background-color: rgb(72, 255, 0);
-  top:180px;
+  top: 180px;
   left: 140px;
   z-index: 1;
   border: 10px solid black;
+  position: absolute;
+}
+#back{
+  background-color: rgb(69, 245, 0);
+  top: 260px;
+  left: 180px;
+  z-index: 1;
+  border: 10px solid black;
+  position: absolute;
 }
 
 #front:hover{
