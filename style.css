@@ -93,6 +93,11 @@ h1{
 
 /* CSS code for the middle of page 2, or the switcher */
 
+.switcher{
+  margin-top: 50px;
+  border:solid gray 10px;
+  padding: 23%;
+}
 .switcher h1{
   text-align: center; 
 }
@@ -101,9 +106,6 @@ h1{
   float: right;
 }
 
-.switcher{
-  margin-left: 00px;
-}
 .switcher div{
   width: 900px;
   height: 600px;
@@ -111,29 +113,30 @@ h1{
 
 #front{
   background-color: rgb(0, 38, 207);
-  top:100px;
-  left: 100px;
+  top:300px;
+  left: 25%;
   z-index: 1;
   border: 10px solid black;
   position: absolute;
 }
 #middle{
   background-color: rgb(255, 0, 0);
-  top: 180px;
-  left: 140px;
+  top: 380px;
+  left: 30%;
   z-index: 1;
   border: 10px solid black;
   position: absolute;
 }
 #back{
   background-color: rgb(69, 245, 0);
-  top: 260px;
-  left: 180px;
+  top: 460px;
+  left: 35%;
   z-index: 1;
   border: 10px solid black;
   position: absolute;
 }
 
+/*for hovering over the seperate options */
 #front:hover{
   z-index: 10;
 }
