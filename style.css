@@ -108,17 +108,21 @@ h1{
 
 .switcher img{
   float: right;
+  padding-left: 20px;
 }
 
 .switcher div{
   width: 900px;
   height: 600px;
 }
+.switcher cite{
+  color: white;
+}
 
 #front{
   background-color: #000000;
   top:300px;
-  left: 25%;
+  left: 20%;
   z-index: 1;
   border: 10px solid white;
   position: absolute;
@@ -127,7 +131,7 @@ h1{
 #middle{
   background-color: #000000;
   top: 380px;
-  left: 30%;
+  left: 25%;
   z-index: 1;
   border: 10px solid white;
   position: absolute;
@@ -136,7 +140,7 @@ h1{
 #back{
   background-color: #000000;
   top: 460px;
-  left: 35%;
+  left: 30%;
   z-index: 1;
   border: 10px solid white;
   position: absolute;
@@ -154,6 +158,28 @@ h1{
   z-index: 10;
 }
 
-#back:active{
-  z-index: 10;
+
+.page3content{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 400px;
+  padding-left: 10%;
+  border: white 10px solid;
+}
+
+.quote{
+  padding: 20px;
+  margin: 2%;
+  float: left;
+  border: 10px;
+  width: 40%; /* The width is 60%, by default */
+}
+
+.stats-table{
+  background-color: #2196F3;
+  padding: 20px;
+  border: 10px;
+  float: left;
+  margin: 2%;
+  width: 40%; /* The width is 20%, by default */
 }
