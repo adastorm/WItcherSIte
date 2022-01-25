@@ -104,6 +104,7 @@ h1{
 
 .switcher a{
   color: white;
+  text-decoration: none;
 }
 
 .switcher p{
@@ -161,12 +162,6 @@ h1{
 }
 
 
-/*for clicking on the seperate options */
-#front:focus, #middle:focus, #back:focus{
-  z-index: 11;
-}
-
-
 /*THings for page 3*/
 
 .page3content{
@@ -193,6 +188,12 @@ h1{
   float: left;
   margin: 2%;
   width: 40%; /* The width is 20%, by default */
+}
+
+table, th, td{
+  border: black solid 1px;
+  border-collapse: separate;
+  text-align: left;
 }
 
 .stats-table li{
